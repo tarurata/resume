@@ -1,0 +1,258 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Add this line to resolve the fancyhdr warning
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{4.08003pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Wataru Murata} \\ \vspace{1pt}
+    \small 778-928-2224 $|$ \href{mailto:saycheese5963@gmail.com}{\underline{saycheese5963@gmail.com}} $|$
+    \href{https://linkedin.com/in/wataru-murata}{\underline{linkedin.com/in/wataru-murata}} $|$
+    \href{https://github.com/tarurata}{\underline{github.com/tarurata}}
+\end{center}
+
+
+%-----------PROFILE SUMMARY-----------
+\section{Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    I am a Digital Analytics Engineer with 5 years of experience, deep expertise in Google Analytics (GA) and Google Tag Manager (GTM). Currently advancing my cybersecurity knowledge at the Canadian College of Technology and Business (CCTB).
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Digital Analytics Engineer}{Jun 2020 -- Nov 2023}
+      {DMM.com Group}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Managed over 40 Google Tag Manager (GTM) containers using GTM 360's zone function, implementing a hierarchical setup for efficient oversight}
+        \resumeItem{Led the transition from Universal Analytics to Google Analytics 4 (GA4), ensuring dual tracking and early GA4 adoption}
+        \resumeItem{Implemented server-side GTM on Google App Engine to enable tracking without third-party cookies}
+        \resumeItem{Automated department code uploads to GA using Python with GTM API, integrating CircleCI for updates}
+        \resumeItem{Developed and maintained a tracking system installed on all websites, handling 2.5 billion page views per month}
+        \resumeItem{Utilized SQL queries in BigQuery for data verification and addressed discrepancies to ensure data reliability}
+        \resumeItem{Optimized website performance by identifying and resolving JavaScript issues using Chrome DevTools, significantly improving site efficiency}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Developer}{Aug 2021 -- Oct 2021}
+      {Navicks Works}{Chiyoda, Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Developed a clinic reservation service using Laravel and Vue.js}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Developer}{Mar 2020 -- Mar 2021}
+      {Plus Inc.}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Specialized in WordPress theme development and website construction}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Developer}{Aug 2019 -- Nov 2019}
+      {Smart Social, Inc.}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Developed relocation information service with Laravel that allows you to apply for all the necessary procedures for moving}
+        \resumeItem{Executed front-end development tasks, enhancing the site's user experience using jQuery}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Server Engineer}{Jun. 2018 -- May 2019}
+      {NTT Communications}{Chiyoda, Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Contracted Employee through Persol Technology Staff Co., Ltd.}
+        \resumeItem{Maintained and operated Oracle Service Bus}
+        \resumeItem{Developed an internal web portal using PHP and JavaScript}
+        \resumeItem{Set up proxy services using Nginx and implemented system monitoring with Zabbix}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {System Administrator}{Oct. 2015 -- Mar. 2016}
+      {Riverfront Research Center}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Managed in-house server (Windows Server 2008)}
+        \resumeItem{Operated the internal help desk, including PC setup, management, and macro creation using VBA}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%             \resumeItem{Implemented GitHub OAuth to get data from user's repositories}
+%             \resumeItem{Visualized GitHub data to show collaboration}
+%             \resumeItem{Used Celery and Redis for asynchronous tasks}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%           \resumeItemListStart
+%             \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%             \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%             \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%             \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Canadian College of Technology and Business (CCTB)}{Vancouver, BC}
+      {Postgraduate Certificate in Cybersecurity}{Jan. 2024 -- Jan. 2026}
+    \resumeSubheading
+      {The Open University}{Tokyo, Japan}
+      {Bachelor of Liberal Arts Informatics}{Apr. 2019 -- Mar. 2024}
+    \resumeSubheading
+      {Hiroshima University}{Hiroshima, Japan}
+      {Bachelor of Laws}{Apr. 2007 -- Mar. 2012}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Certified in Cybersecurity (CC)}{Aug. 2024}
+      {ISC2}{}
+    \resumeSubheading
+      {Google BigQuery and SQL with Google Analytics 4}{Mar. 2024}
+      {Google}{}
+    \resumeSubheading
+      {Google Analytics Certification}{Mar. 2024}
+      {Udemy}{}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, PHP, JavaScript, HTML/CSS, SQL } \\
+     \textbf{Frameworks}{: Laravel, Django, React, Vue.js, WordPress } \\
+     \textbf{Analytics Tools}{: Google Analytics, Adobe Analytics, Google Tag Manager, Google BigQuery} \\
+     \textbf{CI/CD}{: Docker, CircleCI, Terraform, Github Actions, Vercel } \\
+     \textbf{Developer Tools}{: Git, VS Code,  PyCharm, IntelliJ} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
